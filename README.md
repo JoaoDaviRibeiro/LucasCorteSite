@@ -1,6 +1,6 @@
-# Lucas Corte - Modern Landing Page
+# Corte & Associates - Law Firm Landing Page
 
-A stunning, responsive, and elegant landing page built with React, Vite, HTML, CSS, and JavaScript. Features beautiful animations, smooth scrolling, and a modern design aesthetic.
+A stunning, responsive, and professional landing page for a law firm built with React, Vite, HTML, CSS, and JavaScript. Features beautiful animations, smooth scrolling, and an elegant design aesthetic perfect for legal practice marketing.
 
 ## ✨ Features
 
@@ -9,13 +9,13 @@ A stunning, responsive, and elegant landing page built with React, Vite, HTML, C
 - **Smooth Animations**: Delightful micro-interactions and floating elements
 - **Performance Optimized**: Built with Vite for fast development and production builds
 - **Beautiful Components**: 
-  - Navigation with scroll detection
-  - Hero section with parallax effects
-  - Features showcase with hover animations
-  - Services section with interactive cards
-  - Testimonials carousel
-  - Call-to-action section
-  - Comprehensive footer
+  - Professional navigation with scroll detection
+  - Hero section with parallax effects and key statistics
+  - Why Choose Us section highlighting firm strengths
+  - Practice Areas showcase with interactive cards
+  - Client testimonials carousel
+  - Consultation call-to-action section
+  - Professional footer with contact links
 
 ## 🚀 Quick Start
 
@@ -85,22 +85,30 @@ package.json         # Project dependencies
 
 ## 🔧 Customization
 
-### Colors
+#### Contact Information
+Add firm details by updating:
+- Phone number in the CTA section
+- Office address in the footer
+- Email for client inquiries
+
+#### Legal Content
+Update practice areas in Services component:
+- Corporate & Business Law
+- Litigation & Dispute Resolution
+- Real Estate & Property Law
+- Intellectual Property
+
+#### Attorney Team
+Add team member profiles in a new Team section component
+
+#### Colors
 Edit the gradient colors in `src/styles/global.css` and component-specific CSS files:
 ```css
 background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);
 ```
 
-### Content
-Update text and information in each component file (`src/components/*.jsx`)
-
-### Fonts
+#### Fonts
 The project uses Google Fonts (Poppins and Space Mono). Modify the font links in `index.html`
-
-### Sections
-Each section is a separate component for easy modification:
-- Edit component content in `src/components/`
-- Modify styling in corresponding `src/styles/` files
 
 ## 📱 Responsive Design
 
@@ -151,4 +159,4 @@ Feel free to fork, modify, and customize this landing page for your needs.
 
 ---
 
-**Built with elegance and innovation** ✨
+**Excellence in Legal Representation** ⚖️

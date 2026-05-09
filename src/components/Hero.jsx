@@ -29,36 +29,36 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Build Something<br />
-            <span className="gradient-text">Extraordinary</span>
+            Excellence in<br />
+            <span className="gradient-text">Legal Representation</span>
           </h1>
           <p className="hero-subtitle">
-            Create stunning digital experiences with cutting-edge design and modern technology. 
-            Turn your vision into reality with elegance and precision.
+            Protecting your rights and advancing your interests with sophisticated legal strategies. 
+            Trusted counsel for complex legal matters handled with precision and integrity.
           </p>
 
           <div className="hero-buttons">
             <button className="btn btn-primary">
-              Start Your Journey
+              Schedule Consultation
               <span className="btn-arrow">→</span>
             </button>
             <button className="btn btn-secondary">
-              <span className="btn-play">▶</span>
-              Watch Demo
+              <span className="btn-play">📞</span>
+              Call Us Today
             </button>
           </div>
 
           <div className="hero-stats">
             <div className="stat-item">
-              <h3>500+</h3>
-              <p>Projects Completed</p>
+              <h3>250+</h3>
+              <p>Cases Won</p>
             </div>
             <div className="stat-item">
-              <h3>98%</h3>
+              <h3>99%</h3>
               <p>Client Satisfaction</p>
             </div>
             <div className="stat-item">
-              <h3>10+</h3>
+              <h3>25+</h3>
               <p>Years Experience</p>
             </div>
           </div>
@@ -66,16 +66,16 @@ function Hero() {
 
         <div className="hero-visual">
           <div className="floating-card card-1">
-            <div className="card-icon">🎨</div>
-            <p>Design</p>
+            <div className="card-icon">⚖️</div>
+            <p>Justice</p>
           </div>
           <div className="floating-card card-2">
-            <div className="card-icon">⚡</div>
-            <p>Performance</p>
+            <div className="card-icon">🛡️</div>
+            <p>Protection</p>
           </div>
           <div className="floating-card card-3">
-            <div className="card-icon">🚀</div>
-            <p>Innovation</p>
+            <div className="card-icon">💼</div>
+            <p>Expertise</p>
           </div>
           <div className="hero-glow"></div>
         </div>

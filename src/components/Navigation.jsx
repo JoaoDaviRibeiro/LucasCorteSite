@@ -16,8 +16,8 @@ function Navigation({ scrolled }) {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-brand">
-          <span className="brand-icon">✨</span>
-          <span className="brand-text">LucasCorte</span>
+          <span className="brand-icon">⚖️</span>
+          <span className="brand-text">Corte & Associates</span>
         </div>
 
         <button 

@@ -7,26 +7,26 @@ function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
-      role: 'CEO at TechStart',
+      name: 'Jennifer Martinez',
+      role: 'CEO at TechVenture Inc',
       image: '👩‍💼',
-      text: 'Exceptional work! The team delivered a stunning landing page that perfectly captures our brand. Our conversion rates increased by 45% within the first month.',
+      text: 'Outstanding legal representation! Corte & Associates secured favorable terms in our merger negotiations that exceeded our expectations. Their attention to detail and strategic thinking were invaluable.',
       rating: 5
     },
     {
       id: 2,
-      name: 'Michael Chen',
-      role: 'Founder at Digital Co',
+      name: 'David Thompson',
+      role: 'Managing Partner, Thompson Corp',
       image: '👨‍💼',
-      text: 'Professional, creative, and results-driven. They understood our vision and transformed it into a beautiful reality. Highly recommended!',
+      text: 'We\'ve worked with many firms, but Corte & Associates stands out for their responsiveness and expertise. They handled our complex litigation with precision and achieved an excellent outcome.',
       rating: 5
     },
     {
       id: 3,
-      name: 'Emily Rodriguez',
-      role: 'Marketing Director',
-      image: '👩‍🎨',
-      text: 'The design is elegant and the user experience is flawless. Our users love the intuitive interface. Best investment we made this year.',
+      name: 'Sarah Williams',
+      role: 'Property Developer',
+      image: '👩‍⚖️',
+      text: 'Their real estate law expertise is exceptional. They guided us through a complex development project with comprehensive legal strategy. Highly professional and trustworthy team.',
       rating: 5
     }
   ]
@@ -37,7 +37,7 @@ function Testimonials() {
         <div className="section-header">
           <span className="section-badge">Client Stories</span>
           <h2>What Our Clients Say</h2>
-          <p>Real feedback from real clients who achieved amazing results</p>
+          <p>Real feedback from satisfied clients who received exceptional legal representation</p>
         </div>
 
         <div className="testimonials-carousel">

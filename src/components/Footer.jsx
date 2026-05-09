@@ -7,31 +7,31 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-grid">
           <div className="footer-section">
-            <h3>LucasCorte</h3>
-            <p>Creating elegant digital experiences that inspire and delight.</p>
+            <h3>Corte & Associates</h3>
+            <p>Premier legal representation with over 25 years of experience. Dedicated to protecting your rights and advancing your interests.</p>
             <div className="social-links">
-              <a href="#" aria-label="Twitter">𝕏</a>
               <a href="#" aria-label="LinkedIn">in</a>
-              <a href="#" aria-label="GitHub">⚙</a>
+              <a href="#" aria-label="Facebook">f</a>
+              <a href="#" aria-label="Phone">📞</a>
             </div>
           </div>
 
           <div className="footer-section">
-            <h4>Product</h4>
+            <h4>Practice Areas</h4>
             <ul>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#services">Corporate Law</a></li>
+              <li><a href="#services">Litigation</a></li>
+              <li><a href="#services">Real Estate</a></li>
+              <li><a href="#services">Intellectual Property</a></li>
             </ul>
           </div>
 
           <div className="footer-section">
-            <h4>Company</h4>
+            <h4>Firm</h4>
             <ul>
               <li><a href="#about">About Us</a></li>
-              <li><a href="#blog">Blog</a></li>
-              <li><a href="#careers">Careers</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#news">News & Updates</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -48,8 +48,8 @@ function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 LucasCorte. All rights reserved.</p>
-          <p>Crafted with elegance and innovation.</p>
+          <p>&copy; 2024 Corte & Associates. All rights reserved.</p>
+          <p>Excellence in legal representation.</p>
         </div>
       </div>
     </footer>

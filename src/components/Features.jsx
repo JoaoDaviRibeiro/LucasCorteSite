@@ -5,39 +5,39 @@ function Features() {
   const features = [
     {
       id: 1,
-      icon: '✨',
-      title: 'Modern Design',
-      description: 'Beautiful, contemporary interfaces that captivate and engage your audience with elegant aesthetics.'
+      icon: '⚖️',
+      title: 'Expert Legal Counsel',
+      description: 'Highly qualified attorneys with extensive experience across multiple practice areas. Strategic guidance tailored to your unique legal needs.'
     },
     {
       id: 2,
-      icon: '⚡',
-      title: 'Lightning Fast',
-      description: 'Optimized performance ensuring your application loads instantly and runs smoothly every time.'
+      icon: '🛡️',
+      title: 'Aggressive Representation',
+      description: 'Dedicated advocates who fight relentlessly for your rights. We pursue every avenue to achieve the best possible outcome.'
     },
     {
       id: 3,
-      icon: '🔒',
-      title: 'Secure & Reliable',
-      description: 'Enterprise-grade security with best practices built-in to protect your data and users.'
+      icon: '🤝',
+      title: 'Client-Focused Service',
+      description: 'Your interests come first. We prioritize clear communication and transparency throughout the legal process.'
     },
     {
       id: 4,
-      icon: '📱',
-      title: 'Fully Responsive',
-      description: 'Perfect on any device. Seamlessly adapts to desktop, tablet, and mobile screens.'
+      icon: '💼',
+      title: 'Business Law Excellence',
+      description: 'From startups to corporations, we provide comprehensive business law services including contracts, mergers, and compliance.'
     },
     {
       id: 5,
-      icon: '🎯',
-      title: 'SEO Optimized',
-      description: 'Built for discoverability with proper structure and meta tags for maximum reach.'
+      icon: '📋',
+      title: 'Detailed Case Preparation',
+      description: 'Meticulous research and preparation ensures nothing is overlooked. Every detail matters in achieving justice.'
     },
     {
       id: 6,
-      icon: '🤝',
-      title: 'Easy Integration',
-      description: 'Integrates seamlessly with your existing tools and services for a unified workflow.'
+      icon: '✅',
+      title: 'Proven Track Record',
+      description: 'Consistently winning cases and securing favorable settlements. Our results speak to our commitment and expertise.'
     }
   ]
 
@@ -45,9 +45,9 @@ function Features() {
     <section className="features" id="features">
       <div className="features-container">
         <div className="section-header">
-          <span className="section-badge">Our Features</span>
-          <h2>Everything You Need</h2>
-          <p>Comprehensive solutions designed to help you succeed</p>
+          <span className="section-badge">Why Choose Us</span>
+          <h2>What Sets Us Apart</h2>
+          <p>Exceptional legal representation backed by expertise, dedication, and proven results</p>
         </div>
 
         <div className="features-grid">
