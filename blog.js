@@ -6,7 +6,8 @@ const posts = [
     category: 'Corporate',
     date: 'May 10, 2026',
     readTime: '7 min read',
-    featured: true
+    featured: true,
+    url: '/article-boardroom-readiness.html'
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ const posts = [
     category: 'Litigation',
     date: 'May 7, 2026',
     readTime: '6 min read',
-    featured: false
+    featured: false,
+    url: '/article-litigation-timeline.html'
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const posts = [
     category: 'Real Estate',
     date: 'May 5, 2026',
     readTime: '5 min read',
-    featured: false
+    featured: false,
+    url: '/article-commercial-leasing-2026.html'
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ const posts = [
     category: 'Intellectual Property',
     date: 'May 2, 2026',
     readTime: '4 min read',
-    featured: false
+    featured: false,
+    url: '/article-trademark-hygiene.html'
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ const posts = [
     category: 'Compliance',
     date: 'April 29, 2026',
     readTime: '8 min read',
-    featured: false
+    featured: false,
+    url: '/article-internal-investigations.html'
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ const posts = [
     category: 'Litigation',
     date: 'April 25, 2026',
     readTime: '6 min read',
-    featured: false
+    featured: false,
+    url: '/article-settlement-strategy.html'
   }
 ]
 
@@ -72,7 +78,7 @@ function createPostCard(post) {
     </div>
     <h2 class="post-title">${post.title}</h2>
     <p class="post-excerpt">${post.excerpt}</p>
-    <a class="post-link" href="#" aria-label="Read article: ${post.title}">
+    <a class="post-link" href="${post.url}" aria-label="Read article: ${post.title}">
       Read article
       <span>→</span>
     </a>
