@@ -31,7 +31,7 @@ function Footer() {
             <ul>
               <li><a href="#about">About Us</a></li>
               <li><a href="#team">Our Team</a></li>
-              <li><a href="#news">News & Updates</a></li>
+              <li><a href="/blog.html">News & Updates</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>

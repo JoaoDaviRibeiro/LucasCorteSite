@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corte & Associates | Institutional Blog</title>
+  <meta name="description" content="Institutional blog by Corte & Associates with legal insights, corporate law updates, and strategic guidance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/blog.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark">⚖</span>
+        <span class="brand-text">Corte & Associates</span>
+      </a>
+      <nav class="topnav">
+        <a href="/">Home</a>
+        <a href="/blog.html" aria-current="page">Blog</a>
+        <a class="topnav-cta" href="/#contact">Consultation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <div class="hero-glow hero-glow-a"></div>
+      <div class="hero-glow hero-glow-b"></div>
+      <div class="blog-hero-inner">
+        <p class="hero-eyebrow">Institutional Blog</p>
+        <h1>Legal Insight for Leaders and Decision Makers</h1>
+        <p class="hero-copy">
+          Perspectives from our attorneys on corporate law, litigation strategy, regulatory trends,
+          and risk management to support confident decisions.
+        </p>
+      </div>
+    </section>
+
+    <section class="feed-controls" aria-label="Blog controls">
+      <div class="feed-controls-inner">
+        <div class="search-wrap">
+          <label for="searchInput">Search articles</label>
+          <input id="searchInput" type="search" placeholder="Search by keyword or topic" />
+        </div>
+        <div class="category-wrap">
+          <label for="categorySelect">Practice area</label>
+          <select id="categorySelect">
+            <option value="all">All categories</option>
+            <option value="Corporate">Corporate</option>
+            <option value="Litigation">Litigation</option>
+            <option value="Real Estate">Real Estate</option>
+            <option value="Intellectual Property">Intellectual Property</option>
+            <option value="Compliance">Compliance</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="feed-section" id="blogFeed" aria-live="polite">
+      <div class="feed-grid" id="feedGrid"></div>
+      <p class="feed-empty" id="emptyState" hidden>No posts found for this filter. Try another category or keyword.</p>
+    </section>
+  </main>
+
+  <footer class="blog-footer">
+    <div class="blog-footer-inner">
+      <p>© 2026 Corte & Associates. All rights reserved.</p>
+      <a href="/">Back to main site</a>
+    </div>
+  </footer>
+
+  <script type="module" src="/blog.js"></script>
+</body>
+</html>

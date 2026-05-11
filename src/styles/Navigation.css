@@ -77,7 +77,20 @@
   position: relative;
 }
 
+.nav-menu li .nav-link {
+  color: #e0e0e0;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
 .nav-menu li button:hover {
+  color: #00d4ff;
+}
+
+.nav-menu li .nav-link:hover {
   color: #00d4ff;
 }
 
@@ -92,7 +105,22 @@
   transition: width 0.3s ease;
 }
 
+.nav-menu li .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #00d4ff, #0099ff);
+  transition: width 0.3s ease;
+}
+
 .nav-menu li button:hover::after {
+  width: 100%;
+}
+
+.nav-menu li .nav-link:hover::after {
   width: 100%;
 }
 
@@ -179,6 +207,10 @@
   }
 
   .nav-menu li button::after {
+    display: none;
+  }
+
+  .nav-menu li .nav-link::after {
     display: none;
   }
 }

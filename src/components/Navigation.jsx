@@ -40,6 +40,9 @@ function Navigation({ scrolled }) {
             <button onClick={() => scrollToSection('testimonials')}>Testimonials</button>
           </li>
           <li>
+            <a href="/blog.html" className="nav-link">Blog</a>
+          </li>
+          <li>
             <a href="#contact" className="nav-cta">Get Started</a>
           </li>
         </ul>
