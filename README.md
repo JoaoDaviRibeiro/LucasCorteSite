@@ -148,6 +148,17 @@ The build can be deployed to various platforms:
 - **Netlify**: Drag and drop the `dist` folder
 - **AWS S3 + CloudFront**: Upload and configure
 - **GitHub Pages**: Use `gh-pages` package
+- **Render**: Connect the GitHub repository and use the included `render.yaml`
+
+### Render setup
+
+1. Create a new Static Site on Render.
+2. Connect this repository.
+3. Render will use:
+   - Build Command: `npm install && npm run build`
+   - Publish Directory: `dist`
+
+The project is already configured for Render with the file `render.yaml`.
 
 ## 📝 License
 
