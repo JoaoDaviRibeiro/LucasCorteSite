@@ -3,7 +3,7 @@ services:
     name: lucas-corte-site
     env: static
     buildCommand: npm ci --include=dev && npm run build
-    staticPublishPath: dist
+    staticPublishPath: build
     pullRequestPreviewsEnabled: true
     envVars:
       - key: NPM_CONFIG_PRODUCTION
